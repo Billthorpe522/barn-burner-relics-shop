@@ -45,3 +45,4 @@ In the Squarespace page editor:
 - If you want to change the subdomain from `shop` to `sales` or `catalog` later: just rename the CNAME record in Squarespace (and tell me so I can update the GitHub side)
 
 — Bill (via Hermes)
+
