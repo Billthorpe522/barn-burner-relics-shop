@@ -136,6 +136,15 @@
             font-weight: 600;
         }
         .header-links .cart-link:hover { background: #a0522d; }
+        .header-links .back-to-main {
+            color: #d4a853;
+            font-size: 12px;
+            letter-spacing: 0.5px;
+            padding: 6px 10px;
+            border: 1px solid rgba(212, 168, 83, 0.4);
+            border-radius: 3px;
+        }
+        .header-links .back-to-main:hover { color: #f5f0e8; border-color: #d4a853; background: rgba(212, 168, 83, 0.1); }
         .mobile-menu-btn { display: none; background: none; border: none; color: #e8e0d8; font-size: 24px; cursor: pointer; }
 
         /* Hero */
@@ -619,6 +628,7 @@
             <img src="images/bbr-logo-header.jpg" alt="Barn Burner Relics Inc" class="header-logo-img">
         </a>
         <nav class="header-links">
+            <a href="https://barnburnerrelics.net" target="_blank" rel="noopener" class="back-to-main">← Main Site</a>
             <a href="#" onclick="closeDetail(); scrollToSection('shop'); return false;">Shop</a>
             <a href="#" onclick="closeDetail(); scrollToSection('about'); return false;">About</a>
             <a href="#" onclick="closeDetail(); scrollToSection('email'); return false;">Newsletter</a>
